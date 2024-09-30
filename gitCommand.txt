@@ -1,0 +1,68 @@
+git clone https://github.com/SayedNegm/GitCourseFromElZero.git
+------------------------------
+git status
+------------------------------
+git add *
+------------------------------
+ git reset head (name of file you want skip)
+------------------------------
+git commit -m "write your message here"
+------------------------------
+git branch
+------------------------------
+git remote -v
+------------------------------
+git push origin main
+------------------------------
+git config -l
+------------------------------
+git help config
+------------------------------
+git config --global user.email
+------------------------------
+Edit Email Value :
+git config --global user.email "sayed@gmail.com"
+------------------------------
+Create New File
+touch "new_file.txt"
+-------------------------------
+Generate Public Key
+
+ssh-keygen -t rsa -b 4096 -C "sayednegm92@gmail.com"
+cat 
+ssh -T git@github.com
+-----------------------------------
+Create Repository From Existing Project
+
+git init
+
+git add .
+
+git commit -m "Second Time"
+
+git remote add origin (Repo Url)
+
+git push -u origin master
+------------------------------------
+Pull Request
+------------------------------------
+Aliases
+git config --global alias.st status
+------------------------------------
+Branching And Merging
+*creat Branch
+=>git branch scroll
+*Go To Branch
+=>git checkout scroll
+*Delete Branch
+=>git branch -d scroll
+=>git branch -D scroll
+*Create Branch and go to it 
+=>git checkout -b (DivFeature)
+
+
+
+
+
+
+
